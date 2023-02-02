@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(23, 22, 22);
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+}
+
+td,
+th {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+td {
+  display: table-cell;
+}
